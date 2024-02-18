@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN de font-awesome -->
+    <!-- CDN son las siglas para Content Delivery Network (Red de Distribución de Contenidos) y, tal como su nombre lo indica, se trata de una red de servidores encargada de distribuir contenidos en Internet de manera más rápida y eficiente gracias a una serie de POPs (Puntos de Presencia) situados alrededor del mundo. -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>Mi portafolio</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <a href="index.html"><span>CM</span></a>
+            </div>
+            <div class="links">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <!-- <li><a href="#portafolio">portafolio</a></li> -->
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li>
+                  <a href="https://wa.me/+573105169931"
+                    target="_blank"
+                    class="active"
+                    >WhatsApp</a> </li>
+
+              </ul>
+            </div>
+
+            <div class="hamburguer-menu">
+              <i class="fas fa-bars"></i>
+            </div>
+
+             </div>
+        </nav>
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Camilo<span>Mendoza</span></h1>
+              <p class="text">Hola, soy administrador de empresas y esta es mi primer WebPage</p>
+              <button class="btn">Descargar CV</button>
+            </div>
+            <div class="column-2 image">
+              <!--<img src="./img/shapes/points2.svg" alt="" class="points points2"> -->
+              <img src="./img/person.png" alt="Camilo Mendoza" class="img-element z-index">
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+    <!-- Seccion Servicios -->
+      <section class="sevices section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title">Servicios</h3>
+            <p class="text">Descubre cómo podemos satisfacer tus necesidades digitales, 
+              desde la creación de sitios web hasta el análisis de datos para impulsar tu negocio.
+            </p>
+
+          </div>
+          
+          <div class="cards">
+            <div class="card-wrap">
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img
+                    src="./img/design-icon.svg"
+                    alt="icono UI/UX"
+                    class="icon"
+                  />
+                  <h3 class="title-sm">Diseño WEB</h3>
+                  <p class="text">
+                    Impacta con un diseño web atractivo y adaptable
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="card-wrap">
+              <div class="card" data-card="code">
+                <div class="card-content z-index">
+                  <img
+                    src="./img/code-icon.svg"
+                    alt="icono UI/UX"
+                    class="icon"
+                  />
+                  <h3 class="title-sm">Desarrollo WEB</h3>
+                  <p class="text">
+                    Transformo ideas en sitios web funcionales y atractivos
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card-wrap">
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img
+                    src="./img/app-icon.svg"
+                    alt="icono UI/UX"
+                    class="icon"
+                  />
+                  <h3 class="title-sm">Análisis de datos</h3>
+                  <p class="text">
+                    Aprovecha al máximo tus datos para impulsar tu éxito
+                  </p>
+                  <a href="#" class="btn small">Ver más</a>
+                </div>
+              </div>
+            </div>
+
+          
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </section>
+
+      <!-- Fin sección Servicios-->
+
+             <!-- Sección blog y testimonios -->
+  
+        <section class="testimonials section" id="testimonials">
+          <div class="container">
+            <div class="section-header">
+              <h3 class="title" data-title="Qué dicen de nosotros">
+                Testimonios
+              </h3>
+            </div>
+  
+            <div class="testi-content grid-2">
+              <div class="column-1 reviews">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide review">
+                      <i class="fas fa-quote-left quote"></i>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+  
+                      <p class="review-text">
+                        "Gracias a Camilo, hemos alcanzado 
+                        nuevos niveles de precisión en nuestro análisis de datos. 
+                        Su habilidad con la programación ha sido clave para potenciar 
+                        nuestra estrategia digital."
+                      </p>
+  
+                      <div class="review-info">
+                        <h3 class="review-name">Maria García</h3>
+                        <h5 class="review-job">Directora de Marketing Digital, Bogotá</h5>
+                      </div>
+                    </div>
+  
+                    <div class="swiper-slide review">
+                      <i class="fas fa-quote-left quote"></i>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+  
+                      <p class="review-text">
+                        "El enfoque analítico de Camilo y su destreza
+                         en programación han revolucionado nuestra empresa,
+                          permitiéndonos optimizar procesos y tomar decisiones más acertadas."
+                      </p>
+  
+                      <div class="review-info">
+                        <h3 class="review-name">Juan Martinez</h3>
+                        <h5 class="review-job">Gerente de Operaciones, Bogotá</h5>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="review-nav swiper-button-prev">
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                  </div>
+                  <div class="review-nav swiper-button-next">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="column-2 image">
+                <img src="./img/testi.svg" alt="" class="img-element" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Fin Sección Testimonios -->
+  
+        <!-- Sección about -->
+  
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="section-header">
+              <h3 class="title" data-title="Quien soy yo">Acerca de</h3>
+            </div>
+  
+            <div class="section-body grid-2">
+              <div class="column-1">
+                <h3 class="title-sm">Hola, Yo soy</h3>
+                <p class="text">
+                  Soy un administrador de empresas que adora descifrar
+                   historias ocultas en los datos. Además, 
+                   estoy explorando el mundo de la programación 
+                   para añadir un toque de magia digital a mi repertorio
+                    y llevar mi trabajo a nuevas alturas.
+                </p>
+                <div class="skills">
+                  <div class="skill html">
+                    <h3 class="skill-title">HTML</h3>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-progress="90%"></div>
+                    </div>
+                  </div>
+                  <div class="skill css">
+                    <h3 class="skill-title">CSS</h3>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-progress="70%"></div>
+                    </div>
+                  </div>
+                  <div class="skill js">
+                    <h3 class="skill-title">JavaScript</h3>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-progress="80%"></div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="btn">Ver más</a>
+              </div>
+  
+              <div class="column-2 image">
+                <img src="./img/shapes/points4.svg" class="points" alt="" />
+                <img src="./img/about.png" class="z-index" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Fin Sección about -->
+
+      <!-- Seccion de contacto -->
+      <section class="contact" id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11264.678323748733!2d-76.5376922857625!3d3.431415255627299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5e952ae6168!2sCali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses-419!2sco!4v1707531371081!5m2!1ses-419!2sco"
+        width="100%"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+
+        </iframe>
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Ponte en contacto</h3>
+              <p class="text">
+                ¡Estoy aquí para ayudarte!
+                 ¡Contáctame hoy mismo y hagamos realidad tu proyecto digital!
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Cali. Colombia</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">juancamilo042911@gmail.com</p>
+                </div>
+<div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">310 5169931</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <h3 class="title">Contáctame</h3>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Nombre" />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Apellido"
+                />
+              </div>
+
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Celular"
+                />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+<div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Mensaje"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Enviar</a>
+            </form>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <!-- Fin Sección Contacto -->
+
+    <!-- Sección (Footer) pie de página -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Acerca de</h3>
+            <p class="text">
+              Descubre cómo podemos satisfacer tus necesidades digitales,
+               desde la creación de sitios web hasta el análisis de datos para impulsar tu negocio.
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Servicios</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portafolio</a>
+              </li>
+              <li>
+                <a href="#about">Acerca de</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonios</a>
+              </li>
+              <li>
+                <a href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Servicios</h3>
+            <ul>
+              <li>
+                <a href="#">Diseño WEB</a>
+              </li>
+              <li>
+                <a href="#">Desarrollo WEB</a>
+              </li>
+              <li>
+                <a href="#">Diseño de Apps</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">Diseño UI/UX</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Suscríbete</h3>
+            <p class="text">
+              ¡Ponte en contacto conmigo!
+          
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2024 | Hecho por
+              <a href="#" class="split-text"> Camilo Mendoza </a>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Sígueme</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin Sección (footer) Pie de página -->
+  </body>
+</html>
